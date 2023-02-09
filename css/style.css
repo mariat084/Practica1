@@ -1,0 +1,58 @@
+img {
+    width: 100%;
+    height: auto;
+
+}
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: var(--spacing-xsmall);
+
+
+}
+
+#header {
+    background-color: beige;
+    height: 125px;
+    
+}
+.header-logo {
+    max-width: 120px;
+}
+#header h1 {
+    font-family: var(--font-principal);
+    padding: 0;
+    
+}
+#menu {
+    height: 35px;
+    background-color: bisque;
+}
+#menu ul {
+    text-decoration: none;
+    list-style: none;
+    line-height: 35px;
+    padding: 0;
+}
+#menu a {
+    color: var(--tertiary);
+    text-decoration: none;
+    transition: all 0.3s;
+    display: block;
+}
+a:hover {
+    background-color: violet;
+    color: pink;
+}
+footer {
+    background-color: beige;
+}
+@media (max-width: 768px){
+    #menu {
+        height: auto;
+      
+    }
+    #menu li {
+        padding: 0;
+    }
+}
